@@ -19,10 +19,10 @@ services:
     image: mariadb:focal
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=YOUR_PASSWORD
+      - MYSQL_ROOT_PASSWORD=Ugeh76lagh
       - MYSQL_DATABASE=dujiaoka
       - MYSQL_USER=dujiaoka
-      - MYSQL_PASSWORD=YOUR_PASSWORD
+      - MYSQL_PASSWORD=Ugeh76lagh
     volumes:
       - ./mysql:/var/lib/mysql
 
